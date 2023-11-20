@@ -192,3 +192,125 @@
     color:#2F80ED;
     font-weight: 500;
 }
+div>p{
+    font-weight: 700;
+    font-size: 17px;
+    color: #6953ED;
+}
+div>h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+div>h1>span{
+    color: #2F80ED;
+}
+.hero-below{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.my-container{
+    margin-top: 25px;
+    overflow: auto;
+}
+.box3{
+    width: 250vw;
+    display: flex;
+    /* white-space: nowrap; */
+}
+.card1{
+    display: inline-block;
+    /* white-space: nowrap; */
+}
+.card1{
+    margin: 10px;
+    display: flex;
+    width: 650px;
+    height: 400px;
+    box-shadow: 0px 0px 10px wheat;
+    border-radius: 12px;
+}
+.flex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1.9;
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 186, 181, 1);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    flex: 5;
+    padding-right: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.flex1>div{
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--font-black);
+    width: 70%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.flex1>div>button{
+    width: 40px;
+    height: 40px;
+    background-color: #012555;
+    border-radius: 50%;
+    border: none;
+    margin-inline: 5px;
+    margin-bottom: 10px;
+}
+.flex2>div{
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--font-black);
+    margin-bottom: 10px;
+}
+.flex2>div>button{
+    width: 90px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF7169;
+}
+.flex2>p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #595959;
+}
+.color2{
+    background: rgba(220, 201, 255, 1);
+}
+.btn-color1>button{
+    background: rgba(148, 95, 246, 1) !important;
+}
+.color3{
+    background: rgba(205, 226, 255, 1);
+}
+.btn-color2>button{
+    width: 110px !important;
+    background-color: #3081ED !important;
+}
+.color4{
+    background: rgba(255, 220, 173, 1) !important;
+}
+.btn-color3>button{
+    background: rgba(248, 179, 92, 1) !important;
+}
