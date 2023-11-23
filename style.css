@@ -395,6 +395,12 @@ div>h1>span{
     /* margin-right: 60px; */
 
 }
+.btn-2>button:last-child:hover{
+    opacity: 0.8;
+}
+#first:hover{
+   opacity: 0.5;
+}
 #first{
     color: blue;
     background-color: #ceecff;
